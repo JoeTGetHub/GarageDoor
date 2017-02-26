@@ -1,0 +1,16 @@
+{
+	"event" : "ProdPublishReportGargeStatus",
+	"url" : "https://www.tepas.us/iot/Hide.asmx/PublishReportGargeStatus",
+	"requestType" : "POST",
+  "json": {
+    "doorOpen": "{{doorOpen}}",
+    "doorClosed": "{{doorClosed}}",
+    "vibrateVert": "{{vibrateVert}}",
+    "vibrateHoriz": "{{vibrateHoriz}}",
+    "sound": "{{sound}}"
+  },
+  "mydevices": true,
+  "rejectUnauthorized": false
+}
+
+
