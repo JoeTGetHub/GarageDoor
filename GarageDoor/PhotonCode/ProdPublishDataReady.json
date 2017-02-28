@@ -1,6 +1,6 @@
 {
 	"event" : "ProdPublishDataReady",
-	"url" : "https://www.tepas.us/iot/Hide.asmx/PublishDataReady",
+	"url" : "https://www.mydomain.com/Hide.asmx/PublishDataReady",
 	"requestType" : "POST",
 	"json" : {
 		"particleVariable" : "{{particleVariable}}"
